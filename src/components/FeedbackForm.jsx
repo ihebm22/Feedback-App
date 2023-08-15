@@ -44,7 +44,7 @@ function FeedbackForm() {
             addFeedback(newFeedback);
             setText('');
         }
-        if (feedbackEdit.edti === true) {// check if update is true to update the feedback
+        if (feedbackEdit.edit === true) {// check if update is true to update the feedback
             updateFeedback(feedbackEdit.item.id, newFeedback);
         }else {
             addFeedback(newFeedback);
